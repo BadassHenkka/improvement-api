@@ -7,7 +7,6 @@ import asyncpg
 
 from app.core.config import settings
 
-
 dir_path = path.dirname(path.abspath(__file__).replace("db", ""))
 
 

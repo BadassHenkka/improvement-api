@@ -6,7 +6,6 @@ from fastapi.websockets import WebSocket
 from .conftest import test_access_token
 from .conftest import test_board_in_db
 
-
 test_board_uuid = test_board_in_db.get("board_uuid")
 test_board_websocket_url = f"api/board/ws/{test_board_uuid}"
 

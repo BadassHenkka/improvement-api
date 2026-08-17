@@ -12,7 +12,6 @@ from pydantic import BaseSettings
 from pydantic import Field
 from pydantic import validator
 
-
 load_dotenv()
 
 

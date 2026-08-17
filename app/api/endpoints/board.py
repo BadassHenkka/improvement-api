@@ -30,7 +30,6 @@ from app.utils.board import transform_and_sort_column_cards
 from app.utils.board import transform_column
 from app.websocket import ConnectionManager
 
-
 board_router = APIRouter()
 
 
