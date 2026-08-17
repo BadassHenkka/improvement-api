@@ -3,7 +3,6 @@ from requests.structures import CaseInsensitiveDict  # type: ignore
 
 from app.models.user import User
 
-
 user_data_keys = User.schema().get("properties").keys()
 
 
