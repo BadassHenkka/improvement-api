@@ -13,7 +13,6 @@ from app.crud.user import create_user
 from app.crud.user import get_user_by_username
 from app.models.token import Token
 
-
 auth_router = APIRouter()
 
 

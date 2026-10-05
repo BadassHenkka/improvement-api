@@ -6,7 +6,6 @@ from aioredis.client import PubSub
 
 from app.core.config import settings
 
-
 STOPWORD = "STOP"
 
 

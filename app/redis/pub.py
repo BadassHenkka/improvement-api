@@ -2,7 +2,6 @@ import asyncio
 
 from app.core.config import settings
 
-
 STOPWORD = "STOP"
 
 

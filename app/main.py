@@ -6,7 +6,6 @@ from app.api.router import api_router
 from app.core.config import settings
 from app.utils.openapi import simplify_operation_ids
 
-
 app = FastAPI(title="Improvement API", redoc_url="/docs", docs_url=None)
 
 
