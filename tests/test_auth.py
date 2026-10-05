@@ -3,7 +3,6 @@ from starlette.testclient import TestClient
 
 from app.core.config import settings
 
-
 access_res_dict = {"accessToken": 1, "tokenType": 2}
 
 

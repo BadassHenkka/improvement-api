@@ -12,7 +12,6 @@ from app.crud.user import get_user_by_uuid
 from app.models.token import TokenPayload
 from app.models.user import User
 
-
 reusable_oauth2 = OAuth2PasswordBearer(tokenUrl=f"{settings.API_STR}/auth/access-token")
 
 

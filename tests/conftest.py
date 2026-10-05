@@ -15,7 +15,6 @@ from app.db.init_db_schema_and_functions import init_db_schema_and_functions
 from app.main import app
 from app.models.user import User
 
-
 test_user_in_db = {
     "user_uuid": "1088292a-46cc-4258-85b6-9611f09e1830",
     "username": "testuser_in_db",
